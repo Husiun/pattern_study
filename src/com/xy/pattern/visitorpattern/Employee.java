@@ -42,6 +42,12 @@ public abstract class Employee {
     public void setSex(int sex) {
         this.sex = sex;
     }
+
+    /**
+     * 抽象节点定义接受访问者访问方法，将访问者作为参数，就像家里邀请
+     * 客人一样
+     * @param visitor
+     */
     //定义抽象方法，允许访问者过来访问
     public abstract void accept(IVisitor visitor);
 }
