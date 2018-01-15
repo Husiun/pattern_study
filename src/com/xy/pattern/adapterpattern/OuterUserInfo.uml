@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>adapterpattern.OuterUserInfo</OriginalElement>
+  <nodes>
+    <node x="394.25" y="183.5">adapterpattern.OuterUser</node>
+    <node x="0.0" y="367.0">adapterpattern.UserInfo</node>
+    <node x="394.25" y="0.0">adapterpattern.IOuterUser</node>
+    <node x="69.75" y="149.0">adapterpattern.IUserInfo</node>
+    <node x="299.0" y="367.0">adapterpattern.OuterUserInfo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapterpattern.OuterUser" target="adapterpattern.IOuterUser">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="adapterpattern.UserInfo" target="adapterpattern.IUserInfo">
+      <point x="0.0" y="-84.0" />
+      <point x="-69.75" y="84.0" />
+    </edge>
+    <edge source="adapterpattern.OuterUserInfo" target="adapterpattern.IUserInfo">
+      <point x="-69.75" y="-84.0" />
+      <point x="368.75" y="342.0" />
+      <point x="279.0" y="342.0" />
+      <point x="69.75" y="84.0" />
+    </edge>
+    <edge source="adapterpattern.OuterUserInfo" target="adapterpattern.OuterUser">
+      <point x="69.75" y="-84.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="194.0" y="288.0" />
+  <SelectedNodes>
+    <node>adapterpattern.OuterUserInfo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
