@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>chainofresponsibitypattern.Handler</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">chainofresponsibitypattern.Son</node>
+    <node x="-211.0" y="66.0">chainofresponsibitypattern.Women</node>
+    <node x="162.0" y="80.0">chainofresponsibitypattern.Hasband</node>
+    <node x="-214.0" y="-71.0">chainofresponsibitypattern.IWomen</node>
+    <node x="70.0" y="-70.0">chainofresponsibitypattern.Handler</node>
+    <node x="74.0" y="80.0">chainofresponsibitypattern.Father</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="chainofresponsibitypattern.Father" target="chainofresponsibitypattern.Handler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="chainofresponsibitypattern.Hasband" target="chainofresponsibitypattern.Handler">
+      <point x="0.0" y="-15.0" />
+      <point x="204.0" y="55.0" />
+      <point x="134.0" y="55.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="chainofresponsibitypattern.Women" target="chainofresponsibitypattern.IWomen">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="chainofresponsibitypattern.Son" target="chainofresponsibitypattern.Handler">
+      <point x="0.0" y="-15.0" />
+      <point x="27.0" y="55.0" />
+      <point x="82.0" y="55.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="39.0" y="25.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
